@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="FreeVS: Generative View Synthesis on Free Driving Trajectory">
+  <meta name="keywords" content="Ba^2-Det">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FreeVS: Generative View Synthesis on Free Driving Trajectory</title>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script> 
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+
+<!-- <section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-2 publication-title"></h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              Anonymous Authors
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<section class="hero">
+ <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">FreeVS: Generative View Synthesis on Free Driving Trajectory</h1>
+          <!-- <h2 class="title is-3">CVPR 2024</h2> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  
+
+
+<section class="section">
+  <!-- Paper video. -->
+ <div class="container is-max-desktop has-text-centered"> 
+<h2 class="title is-4">Sucess and Failure Cases of Generation with Pseudo LiDAR Points</h2>
+  <div class="columns is-centered">
+       <div class="column">
+       <div class="content">
+        <div class="content has-text-justified">
+          <img src="./static/videos/pseudolidar1.PNG" width="100%">
+      </div>
+       </div>
+       </div>
+ </div>
+ <div class="columns is-centered">
+  <div class="column">
+  <div class="content">
+   <div class="content has-text-justified">
+     <img src="./static/videos/pseudolidar2.PNG" width="100%">
+ </div>
+  </div>
+  </div>
+</div>
+</div>
+</section>
+
+
+<section class="section">
+  <!-- Paper video. -->
+  <div class="container is-max-desktop has-text-centered"> 
+    <h2 class="title is-3">Video Demos of Generation With Pseudo LiDAR Points</h2>
+    <div class="columns is-centered">
+      <!-- Video 1 -->
+      <div class="column">
+        <div class="content has-text-centered">
+          <h2 class="title is-4">Ground Truth Video</h2>
+          <video poster="" id="wod" autoplay controls muted loop playsinline width="100%">
+            <source src="./static/videos/12505030131868863688_1740_000_1760_000_FRONT_gt.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <!-- Video 2 -->
+      <div class="column">
+        <div class="content has-text-centered">
+          <h2 class="title is-4">Video Generated with GT LiDAR Points</h2>
+          <video poster="" id="wod" autoplay controls muted loop playsinline width="100%">
+            <source src="./static/videos/12505030131868863688_1740_000_1760_000_FRONT.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <!-- Video 3 -->
+      <div class="column">
+        <div class="content has-text-centered">
+          <h2 class="title is-4">Video Generated with Pseudo LiDAR Points</h2>
+          <video poster="" id="wod" autoplay controls muted loop playsinline width="100%">
+            <source src="./static/videos/12505030131868863688_1740_000_1760_000_FRONT_fromdepthany.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+</body>
+</html>
